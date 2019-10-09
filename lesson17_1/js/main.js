@@ -1,6 +1,6 @@
-var button = document.querySelector('#button') //позволяет найти элемент
-var modal = document.querySelector('#modal');
-var close = document.querySelector('#close');
+var button = document.querySelector('#button'), //позволяет найти элемент
+  modal = document.querySelector('#modal'),
+  close = document.querySelector('#close');
 button.addEventListener('click', function(){
   modal.classList.add('modal_active');
   setTimeout(function(){

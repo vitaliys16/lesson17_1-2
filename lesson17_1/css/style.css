@@ -525,6 +525,10 @@ img {
   right: 0;
 }
 
+.modal-dialog__close:hover {
+  cursor: pointer;
+}
+
 .modal-dialog__title {
   margin-top: 1px;
   font-size: 22px;
@@ -572,6 +576,11 @@ img {
   font-size: 16px;
 }
 
+.modal-dialog__button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
+}
+
 .modal-phone {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -599,5 +608,11 @@ img {
   text-decoration: none;
   color: #333333;
   font-size: 24px;
+}
+
+@media (max-width: 568px) {
+  .modal-dialog {
+    padding: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
